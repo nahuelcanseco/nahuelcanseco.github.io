@@ -1,23 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Nahuel Canseco WEB</title>
+  <meta charset="UTF-8" />
+  <title>Nahuel Canseco - WEB</title>
+  <style>
+    .top-bar {
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: left;
+      font-size: 1.5rem;
+    }
+    .button-nav {
+      display: flex;
+      justify-content: right;
+      background-color: #ffffff;
+      padding: 0.5em 0;
+    }
+    .button-nav a {
+      text-decoration: none;
+      margin: 0 1em;
+      padding: 0.5em 1em;
+      font-size: 1rem;
+      color: #333;
+      transition: color 0.2s;
+    }
+    .button-nav a:hover {
+      color: #c280f8;
+    }
+    section {
+      padding: 4em 1em;
+      max-width: 2000px;
+      margin: auto;
+    }
+    #about { background: #bbe1fa; }
+    <!-- #projects { background: #f0e8fc; } -->
+    #contact { background: #fae3d3; }
+  </style>
 </head>
-<header>
-  <h1>Bienvenido a mi sitio web</h1>
-  <p>Soy Nahuel Canseco, analista funcional y estudiante de Ingeniería en Sistemas.</p>
-</header>
-<section>
-  <h2>ABOUT ME</h2>
-  <p>Me apasiona la programación y las soluciones ERP. Aquí podrás ver algunos de mis proyectos y aprendizajes.</p>
-</section>
-<section>
-  <h2>Proyectos Destacados</h2>
-  <ul>
-    <li>Proyecto A: Sistema de gestión en ADVPL</li>
-    <li>Proyecto B: Página web con GitHub Pages y VS Code</li>
-  </ul>
-</section>
+<body>
+  <div class="top-bar">
+    Nahuel Canseco - Pagina de prueba
+  </div>
+  <nav class="button-nav">
+    <a href="#about">About me</a>
+    <!--<a href="#projects">Proyectos</a>-->
+    <a href="#contact">Contacto</a>
+  </nav>
+
+  <section id="about">
+    <h2>About me</h2>
+    <p>Hincha de River y de Max Verstappen</p>
+  </section>
+  <!--<section id="projects">
+    <h2>Proyectos</h2>
+    <p>zzz</p>
+  </section> -->
+  <section id="contact">
+    <h2>Contacto</h2>
+    <p>
+      <a
+        href="https://www.linkedin.com/in/lucas-nahuel-canseco-692537175" 
+        target="_blank" 
+        rel="noopener noreferrer"  
+        > <!-- por seguridad poner el rel -->
+        Mi perfil en LinkedIn
+      </a>
+    </p>
+    <h2>Mail de contacto</h2>
+    <p>lucasnahuelcanseco@gmail.com</p>
+    </p>
+    <h2>Donaciones</h2>
+    <p>nahuel.canseco.mp</p>
+  </section>
 </body>
 </html>
